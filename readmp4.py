@@ -16,7 +16,7 @@ with open('/Users/gaoliu/PycharmProjects/vid2img/lost_girl_1124__cam2.json', 'r'
         print('yes, 33 is in the list')
 # Create a VideoCapture object and read from input file
 # If the input is the camera, pass 0 instead of the video file name
-    cap = cv2.VideoCapture('/Users/gaoliu/Downloads/lost_girl_1124__cam2.mp4')
+    cap = cv2.VideoCapture('/Users/gaoliu/PycharmProjects/vid2img/cam2_out.mp4')
     out = cv2.VideoWriter('cam2_out.mp4', cv2.VideoWriter_fourcc(*'MP4V'), 20,(data['size']['width'],data['size']['height']) )
 
 # Check if camera opened successfully
